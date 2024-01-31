@@ -1,0 +1,140 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+    background: #ececec;
+    padding: 0 20px 0 20px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.row {
+    width: 900px;
+    height: 550px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 5px 5px 10px 1px rgba(0,0,0,0.2);
+}
+
+.side-image {
+    background-image: url("images/bg-side.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius:0 10px 10px 0;    
+}
+
+.text {
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 40%;
+    text-align: center;
+  }
+
+.text p {
+    color: #F2CC8F;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.text i {
+    font-weight: 600;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.input-box {
+    width: 330px;
+    box-sizing: border-box;
+}
+
+.input-box header {
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.input-field{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.input {
+    height: 30px;
+    width: 100%;
+}
+
+.submit {
+    margin-top: 20px;
+    margin-bottom: 45px;
+    background: #242424;
+    color: #fff;
+    border: none;
+    outline: none;
+    height: 35px;
+    transition: .4s;
+}
+
+.submit:hover {
+    background: rgba(255, 255, 255, 0.2);
+    color: black;
+    border-color: #858585;
+    border-style: ridge;
+}
+
+span {
+    font-size: small;
+}
+
+span a {
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
+    transition: .5s;
+}
+
+span a:hover {
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 768px){
+    
+    .side-image {
+        border-radius: 10px 10px 0 0;
+        order: 1;
+    }
+
+    .text {
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 20%;
+        text-align: center;
+    }
+
+    .right {
+        order: 2;
+    }
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins';
+  font-size: 0.875rem;
+  opacity: 1;
+}
+
+.wrapper {
+  align-items: stretch;
+}
+
+#sidebar {
+  max-width: 264px;
+  min-width: 264px;
+  background: var(--bs-dark);
+  transition: all 0.35s ease-in-out;
+}
+
+
+
+
